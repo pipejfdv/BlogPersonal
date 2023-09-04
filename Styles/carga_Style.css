@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+body{
+    background: #000000;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.carga{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.porcentaje{
+    color: #999;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.barra_Progreso{
+    width: 406px;
+    height: 21px;
+    background: #111;
+    border-radius: 13px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.progreso{
+    width: 200px;
+    height: 15px;
+    background: #c41e1e;
+    border-radius: 13px;
+}
